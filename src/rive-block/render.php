@@ -13,7 +13,7 @@
 
 	function initialiser(evt) {
 		const r = new rive.Rive({
-			src: "https://mediumblue-leopard-334332.hostingersite.com/wp-content/uploads/boussole.riv",
+			src: "https://api.cors.lol/?url=https://mediumblue-leopard-334332.hostingersite.com/wp-content/uploads/boussole.riv",
 			canvas: document.getElementById( "canvas_boussole" ),
 			autoplay: true,
 			autoBind: true,
