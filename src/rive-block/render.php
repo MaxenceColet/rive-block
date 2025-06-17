@@ -13,8 +13,8 @@
 
 	function initialiser(evt) {
 		const r = new rive.Rive({
-			src: "<?= get_site_url() . "/wp-content/plugins/rive-block/assets/boussole.riv"?>",
-			canvas: document.getElementById("canvas_boussole"),
+			src: "https://mediumblue-leopard-334332.hostingersite.com/wp-content/uploads/boussole.riv",
+			canvas: document.getElementById( "canvas_boussole" ),
 			autoplay: true,
 			autoBind: true,
 			// artboard: "Arboard", // Optional. If not supplied the default is selected
